@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="ajaxcdnlink.js"></script>
+	<title></title>
+</head>
+<body>
+	<div class="container">
+
+		<div id="loaddata">
+			this is going to be change...
+			
+		</div>		
+		<button onclick="myfun()">Click here</button>
+	</div>
+<script type="text/javascript">
+	function myfun() {
+		var req = new XMLHttpRequest();
+		req.open('GET','load.html',true);
+		req.send();
+
+		req.onreadystatechange = function(){
+			if (req.readyState == 4 && req.status == 200) {
+				document.getElementById('loaddata').innerHTML = req.responseText;
+			}
+		}
+	}
+</script>
+
+</body>
+</html>

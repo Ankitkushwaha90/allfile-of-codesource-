@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="jquery-3.5.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="jquery-git.js"> </script> -->
+</head>
+<style>
+    html,body{margin:0; padding: 0; height: 100%; width: 100%; overflow: hidden;}
+    #editor{
+        height: 100%;
+        width: 50%;
+        display: inline-block;
+    }
+    #iframe{
+        height: 100%;
+        display: inline-block;
+        width: 50%;
+
+    }
+    #container{
+        height: 100%;
+        width: auto;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+</style>
+<body onload="ready()">
+    <div id="container">
+        <div id="editor">
+        </div>
+        <iframe id="iframe" frameBorder="0">
+
+        </iframe>
+    </div>
+    
+
+    <script>
+        function update(){
+            var idoc = document.getElementById('iframe').contentWindow.document;
+            idoc.open();
+            idoc.write(editor.getvalue());
+            idoc.close();
+        } 
+        function setupEditor(){
+            window.editor = ace.edit("editor");
+            editor.setTheme("ace/theme/monokai");
+            editor.getSession().setMode("ace/mode/html");
+            editor.setValue(`<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title></head><body></body></html>`, 1);
+            editor.getSession().on('change', function(){update();});
+            editor.focus();
+            editor.setOptions({
+            fontFamily: "Monaca",
+            fontSize: "16pt",
+            showLineNumbers: false,
+            showGutter: false,
+            vScrollBarAlwaysVisible: true,
+            enableBasicAutocompletion: false,
+            enableLiveAutocompletion: false,
+
+        });
+        }
+        function ready(){
+            setupEditor();
+            update();
+    }
+
+    </script>
+
+    
+</body>
+</html>
