@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.navcss{
+	width: auto;
+	height: 45px;
+	background: white;
+	color: black;
+	border-bottom: 1px solid gray;
+}
+.logocss{
+	color: black;
+	padding-left: 30px;
+	padding-top: 10px;
+	font-family: sans-serif;
+	position: absolute;
+}
+.ulcss{
+	float: right;
+	padding-top: 10px;
+	display: inline-block;
+	padding-right: 30px;
+}
+.ulcss a{
+	padding-left: 10px;
+	color: black;
+	padding-right: 10px;
+	font-size: 20px;
+	text-decoration-line: none;
+}
+.maincss{
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 200px auto;
+	grid-gap: 1px;
+}
+.div1{
+	display: fixed;
+	background: white;
+	height: 645px;
+	box-shadow: 1px 1px 1px 1px gray;
+	overflow: auto;
+}
+.container{
+	margin: 10px;
+}.container h1{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: gray;
+	font-size: 18px;
+}.container a{
+	text-decoration-line: none;
+	text-align: center;
+	font-size: 17px;
+	color: black;
+	display: flex;
+	padding-top: 10px;
+	justify-content: space-around;
+	font-family: sans-serif;
+}
+.div2{
+	display: grid;
+	grid-template-columns: auto 180px;
+	grid-template-rows: auto;
+}
+.div2a{
+	background: white;
+}
+.div2b{}
+@media(min-width: 100px) and (max-width: 1120px){
+	.ulcss{
+		display: none;
+
+	}
+	.div1{
+		display: none;
+	}
+	.maincss{
+		display: all;
+		grid-template-columns: minmax(150px, 1120px);
+	}
+	.div2{
+		background: blue;
+		height: 645px;
+		width: 100%;
+		grid-template-columns: auto;
+		grid-column: 1/-1;
+	}
+	.div2a{
+		grid-column: 1/-1;
+	}
+	.div2b{
+		display: none;
+		width: 0px;
+		height: 0px;
+	}
+}

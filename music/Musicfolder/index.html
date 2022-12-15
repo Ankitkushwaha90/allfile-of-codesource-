@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main_div">
+		<div class="music_container">
+			<h2 id="title">LOTUS LANE</h2>
+			<h3 id="artist">The Loyalist</h3>
+			<div class="img_container">
+				<img src="images/1.png">				
+			</div>
+			<audio src="music/1.mp3"></audio>
+
+			<!-- controls -->
+
+			<div class="music_controls">
+				<button class="fas fa-backward" id="prev" title="Previous">prev</button>
+				<button class="fas fa-play" id="play" title="Play">play</button>
+				<button class="fas fa-forward" id="next" title="Previous">next</button>
+
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+
+	<script type="text/javascript">
+		const music = document.querySelector("audio");
+		const play = document.getElementById('play');	
+		const img = document.querySelector('img');
+		const artist = document.getElementById('artist');
+		const title = document.getElementById('title');
+		const prev = document.getElementById('prev');
+		const next = document.getElementById('next');
+
+		const songs  = [
+			{
+				name: "1",
+				title: "Lotus Lane",
+				artist: "the Loyalist",
+			},
+			{
+				name: "2",
+				title: "sappheiros",
+				artist: "Aurora",
+			},
+			{
+				name: "3",
+				title: "Walking Firiri",
+				artist: "Gorkhali Takma",
+			}
+		];
+
+		let isPlaying = false;
+
+		// for play function
+
+		const playMusic = () => {
+			isPlaying = true;
+			music.play();
+			play.classList.replace("fa-play", "fa-pause");
+			img.classList.add("anime");
+		};
+
+		// for pause function
+
+		const pauseMusic = () => {
+			isPlaying = false;
+			music.pause();
+			play.classList.replace("fa-pause", "fa-play");
+			img.classList.remove("anime");
+		};
+
+		play.addEventListener('click', () => {
+			isPlaying ? pauseMusic() : playMusic();
+		});
+
+		// changing the music data
+
+		const loadSong = (songs) =>{
+			title.textContent = songs.title;
+			artist.textContent = songs.artist;
+			music.src = "music/" + songs.name + ".mp3";
+			img.src = "images/" + songs.name + ".jpg";
+
+
+		};
+
+		// loadSong(songs[2]);
+		songIndex = 0;
+		//loadSong(songs[2]);
+
+		const nextSong = () => {
+			songIndex = (songIndex + 1) % songs.length;
+			loadSong(songs[songIndex]);
+			playMusic();
+		};
+
+		const prevSong = () => {
+			songIndex = (songIndex - 1 + songs.length) % songs.length;
+			loadSong(songs[songIndex]);
+			playMusic();
+		}; 
+
+		next.addEventListener('click', nextSong);
+		prev.addEventListener('click', prevSong);
+
+
+	</script>
+
+</body>
+</html>

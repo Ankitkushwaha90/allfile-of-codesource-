@@ -1,0 +1,112 @@
+.ourlicss{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    overflow: hidden;
+    padding: 0px;
+}
+.WcssO{
+    display: block;
+    padding: 5px 5px !important;
+    cursor: pointer;
+    word-wrap: none;
+    margin: 4px 8px;
+}
+
+.active{
+    background-color: black;
+    color: #fff;
+}
+.WcssO:hover{
+    background-color: rgba(0, 0, 0, 0.534)!important;
+    color: #fff;
+}
+.workgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    margin: 0px!important;
+    padding: 0px !important;
+    
+}
+.workimggrid img{
+    height: 240px;
+    width: 350px;
+    overflow: hidden;
+}
+.workimggrid img:hover{
+    width: 100%;
+    height: 100%;
+    animation: workanimation 2s linear ;
+    width: 150%;
+    height: 150%;
+    /* overflow: hidden; */
+}
+@keyframes workanimation {
+    0%{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        
+    }
+    100%{
+        width: 150%;
+        height: 150%;
+        overflow: hidden;
+    }
+
+}
+@media (max-width: 1050px) {
+    .workgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        
+    }
+    .workimggrid img{
+        width: 100%;
+        height: 100%;
+    }
+    .ourlicss{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        text-align: center;
+        overflow: hidden;
+        padding: 0px;
+    }
+}
+@media (max-width: 790px) {
+    .workgrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        
+    }
+}
+@media (max-width: 600px) {
+
+    .ourlicss{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .workimggrid img{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .workimggrid{
+        margin: 5px;
+        padding: 0px;
+    }
+
+}
+@media (max-width: 400px) {
+
+    .ourlicss{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}

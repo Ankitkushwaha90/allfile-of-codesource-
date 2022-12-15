@@ -1,0 +1,9 @@
+.carousel-item img{
+    height: 92vh;
+}
+.carousel{
+    z-index: 3;
+}
+.desktext{
+    margin: 100px;
+}

@@ -1,0 +1,136 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+main{
+	margin: 0px  30px 30px;
+	background-color: purple;
+}
+header{
+	padding: 0px 20px 20px;
+}
+header h1{
+	color: white;
+	margin: 0px 20px 20px;
+}
+header h2{
+	color: white;
+	padding: 0px 20px 20px;
+}
+header p{
+	color: white;
+	padding: 0px 20px 20px;
+}
+.a1a{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		box-shadow: 2px 2px 2px 2px pink;
+		border: 2px solid white;
+		width: auto;
+		height: auto;
+		overflow: hidden;
+
+	}
+	.a1{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		box-shadow: 2px 2px 2px 2px pink;
+		border: 2px solid white;
+		width: auto;
+		height: auto;
+
+	}
+	.a2{
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-left: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		margin: 0px;
+		padding: 0px;
+		height: 35px;
+		width: auto;
+		box-shadow: 2px 2px 2px 2px pink;
+	}
+	.btna1{
+		float: right;
+		padding: 0px;
+		margin: 0px;
+		height: 35px;
+		width: 50px;
+	}
+	.a3{
+		margin: 0px;
+		padding: 10px;
+	}
+	.textcodea4 p{
+		font-size: 25px;
+		color: #270529;
+
+		padding: 0px;
+		margin: 0px;
+	}
+	.haa{
+		font-size: 20px;
+		color: #270529;
+	}
+	.ha1{
+		font-size: 20px;
+		color: gray;
+	}.ha2{
+		font-size: 20px;
+		color: red;
+	}
+	.iai{
+		text-indent: 20px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}.iai1{
+		text-indent: 40px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}.iai2{
+		text-indent: 60px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}.iai3{
+		text-indent: 80px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.ai1{
+		color: #270529;
+	}
+	.headt{
+		margin-top: 10px;
+		padding: 0px;
+
+	}.headb{
+		margin-bottom: 10px;
+		padding: 0px;
+
+	}
+.h1css{
+	color: #393e46;
+}
+.h2css{
+	color: #393e46;
+}
+.pcss{
+	color:#393e46;
+}
