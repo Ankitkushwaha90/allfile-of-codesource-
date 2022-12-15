@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text message</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.heading{
+			width: 100%;
+			background: yellow;
+			height: 50px;
+		}
+		.main{
+			background: pink;
+			width: 300px;
+			font-size: 20px;
+			color: red;
+			position: relative;
+			height: 200px;
+		}
+		textarea{
+			background: pink;
+			font-size: 20px;
+			color: red;
+			width: 300px;
+			height: 200px;
+			position: relative;
+		}
+		.maindiv{ 
+			grid-gap: 20px;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 200px 200px 200px;
+		}
+		.textarea{
+			margin: 0px;
+			padding: 0px;
+		}
+		.div1{
+			background: blue;
+		}
+		.hidden{
+			display: none;
+		}
+	</style><!-- 
+	<div class="note1">
+		<div class="div1">dfsa</div>
+		<div class="div1">fads</div>
+		<div class="div1">dfas</div>
+		<div class="div1">daf</div>
+		<div class="div1">adfs</div>
+	</div> -->
+	<div class="heading">
+		<h1><i class="far fa-sticky-notes"></i>this is app</h1>
+	</div>
+
+	<div class="btn-div">
+		<button onclick="thisisit()" class="learn-more" class="add" id="add">
+			<span class="circle" aria-hidden="true">
+				<span class="icon arrow"></span>
+			</span>
+			<span class="button-text">Add note</span>
+		</button>
+		
+	</div>
+		<div id="maindiv" class="maindiv"> 
+			
+		</div>
+	 
+	<script src="script.js"></script>
+ 
+
+
+	
+</body>
+</html>

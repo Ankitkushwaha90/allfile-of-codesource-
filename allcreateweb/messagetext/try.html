@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankitkushwaha site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  </head>
+<body>
+<style>
+
+.hello{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+  0%   {top: 0px; left: 0px; background: red;}
+  {% comment %} 25%  {top: 0px; left: 70%; background: blue;} {% endcomment %}
+  {% comment %} 50%  {top: 70%px; left: 70%; background: yellow;}
+  75%  {top: 70%; left: 70%; background: green;} {% endcomment %}
+  100% {top: 70%; left: 0px; background: red;}
+}
+
+
+.helloa{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymovea 1s infinite;
+}
+
+@keyframes mymovea {
+  25%  {top: 0px; left: 70%; background: blue;}
+  0%   {top: 0px; left: 0px; background: red;}
+  50%  {top: 70%px; left: 70%; background: yellow;}
+  100% {top: 70%; left: 0px; background: red;}
+  0%  {top: 70%; left: 70%; background: green;}
+}
+
+.hellob{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymoveb 1s infinite;
+}
+
+@keyframes mymoveb {
+  25%  {top: 0px; left: 70%; background: blue;}
+  0%   {top: 0px; left: 0px; background: red;}
+  50%  {top: 70%px; left: 70%; background: yellow;}
+  100% {top: 70%; left: 0px; background: red;}
+  0%  {top: 70%; left: 70%; background: green;}
+}
+
+
+</style>
+
+<div class="hello --container">  <div class="vcenter--helper">    <div class="vcenter">      fsadfafsdaf<!--stuff-->    </div>  </div> </div>
+
+<div class="helloa --container">  <div class="vcenter--helper">    <div class="vcenter">      fsadfafsdaf<!--stuff-->    </div>  </div> </div>
+
+
+<div class="hellob --container">  <div class="vcenter--helper">    <div class="vcenter">      fsadfafsdaf<!--stuff-->    </div>  </div> </div>
+
+
+<div class="hello --container">  <div class="vcenter--helper">    <div class="vcenter">      fsadfafsdaf<!--stuff-->    </div>  </div> </div>
+<div class="helloa --container">  <div class="vcenter--helper">    <div class="vcenter">      fsadfafsdaf<!--stuff-->    </div>  </div> </div>
+
+
+<div class="hellob --container">  <div class="vcenter--helper">    <div class="vcenter">      fsadfafsdaf<!--stuff-->    </div>  </div> </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+.box1{
+	height: 200px;
+	width: auto;
+	background: none;
+}
+.min1{
+	height: 40px;
+	width: auto;
+	background: none;
+}.min2{
+	height: 60px;
+	width: auto;
+	background: none;
+}.min3{
+	height: 80px;
+	width: auto;
+	background: none;
+}
+.contain1{
+	margin: 40px;
+	width: 800px;
+	height: 400px;
+	overflow: auto;
+	background: #1d916f47;
+}

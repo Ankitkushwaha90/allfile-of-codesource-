@@ -1,0 +1,64 @@
+/*
+/*/////////////////////////////////All///////////////////////////////////////////////////////
+.searchh{
+			visibility: hidden;
+		}
+
+.active{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		margin-top: 5px;
+		border-radius: 50px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		box-shadow: 3px 2px 3px black;
+		border: 3px solid white;
+		/*background-image:  linear-gradient(to left, white, gray);*/
+	}
+
+
+	nav ul li:hover{
+
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		margin-top: 5px;
+		border-radius: 50px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		border: 3px solid white;
+		box-shadow: 3px 2px 1px gray;
+	
+	}
+
+.maindivbtn1 .btnbtnbtn:hover{
+		font-family: cursive; 
+		color: white;
+		text-decoration: none;
+		word-spacing: normal;
+		font-size: 18px;
+		text-shadow:0 0 1px #1d4dff, 0 0 3px #3c20d6;
+		text-align: center;
+		border: none;
+		border: 3px solid #e256fd;
+		width: 200px;
+		border-radius: 30px;
+		height: 30px;
+}.maindivbtn1 .subactive{
+		font-family: cursive; 
+		color: white;
+		text-decoration: none;
+		word-spacing: normal;
+		font-size: 18px;
+		text-shadow:0 0 1px #1d4dff, 0 0 3px #3c20d6;
+		text-align: center;
+		border: 4px solid #f173b0;
+		border-radius: 20px;
+		/*border: 3px solid #f36895;
+		width: 200px;
+		border-radius: 30px;
+		box-shadow: 2px 2px 2px pink;
+		height: 30px; 
+		background-image:linear-gradient(to left, white, white);
+}*/

@@ -1,0 +1,487 @@
+@media(min-width: 1091px) and (max-width: 2000px){
+
+
+.homediv{
+					color: white;
+					position: absolute;
+					font-size: 25px;
+					padding-left: 150px;
+					padding-top: 10px;
+					padding-right: 100px;
+					margin-right: 100px;
+					justify-content: center;
+
+				}.homediv .fa-home{
+					color: white;
+					text-shadow: 2px 2px 2px black;
+				}.homediv .fa-home:hover{
+					color: white;
+					text-shadow: 2px 4px 4px gray;
+				}
+				.fa-window-close{
+					color: white;
+					/*padding:10px;*/
+				}.fa-window-close:hover{
+					color: white;
+					text-shadow: 2px 2px 2px black;/*
+					padding:10px;*/
+				}
+
+				.moresubwindow{
+					display: none;
+					width: auto;
+					height: auto;
+					padding-bottom: 10px;
+					background-color: gray;
+					position: absolute;
+					margin-left: 220px;
+					margin-top: 4px;
+					padding-top: 4px;
+				}
+				.close{
+					float: right;
+
+					padding-top: 0px;
+					padding-right: 0px;
+					margin-top: 0px;
+					margin-right: 0px;
+				}
+				.mainmore1{
+					padding-top: 10px;
+					margin-top: 10px;
+					padding-left: 0px;
+					margin-left: 0px;
+
+				}.mainmore2{
+					background: gray;
+					padding-top: 20px;
+					display: grid;
+					grid-template-columns:  minmax(200px, 320px) minmax(200px, 320px) minmax(200px, 320px);
+					grid-template-rows: auto auto auto auto;
+
+				}.submoremain h2{
+					text-align: center;
+					text-shadow: 2px 2px 2px blue;
+					color: white;
+
+					}.submoremain{
+						background: gray;
+						padding-top: 20px;
+						padding-bottom: 20px;
+
+					}.submoremain3 .subsub{
+						display: flex;
+						flex-direction: row;
+						justify-content: space-around;
+						text-decoration-line: none;
+						color: white;
+						padding-top: 10px;
+
+					}.submoremain3 .subsub a{
+						text-decoration-line: none;
+						font-size: 20px;
+						color: white;
+					}
+					.submoremain3 .subsub a:hover{
+						text-shadow: 2px 5px 5px blue;
+						text-decoration-line: none;
+						color: white;
+						font-size: 20px;
+					}
+
+
+}
+
+
+/*/////////////////////////////////////////////////////1091px///////////////////*/
+
+
+@media(min-width: 800px) and (max-width: 1091px){
+
+
+.homediv{
+					color: white;
+					position: absolute;
+					font-size: 25px;
+					padding-left: 150px;
+					padding-top: 10px;
+					padding-right: 100px;
+					margin-right: 100px;
+					justify-content: center;
+
+				}.homediv .fa-home{
+					color: white;
+					text-shadow: 2px 2px 2px black;
+				}.homediv .fa-home:hover{
+					color: white;
+					text-shadow: 2px 4px 4px gray;
+				}
+				.fa-window-close{
+					padding-top: 0px;
+					margin-top: 0px;
+
+					color: white;
+					/*padding:10px;*/
+				}.fa-window-close:hover{
+					color: white;
+					text-shadow: 2px 2px 2px black;/*
+					padding:10px;*/
+				}
+
+				.moresubwindow{
+					display: none;
+					width: auto;
+					height: auto;
+					background: gray;
+					position: absolute;
+					padding-bottom: 20px;
+					margin-top: 45px;
+					padding-top: 0px;
+					justify-content: center;
+				}
+				.close{
+					display: flex;
+					flex-direction: row-reverse;
+					top: 0%;
+				}
+				.mainmore1{
+					position: relative;
+					padding-top: 0px;
+					margin-top: 0px;
+					padding-left: 0px;
+					margin-left: 0px;
+
+				}.mainmore2{
+					padding-top: 10px;
+					display: grid;
+					grid-template-columns:  minmax(150px, 280px) minmax(150px, 280px) minmax(150px, 280px);
+					grid-template-rows: auto;
+
+				}.submoremain h2{
+					text-align: center;
+					text-shadow: 2px 2px 2px blue;
+					color: white;
+
+					}.submoremain{
+
+						padding-top: 20px;
+						padding-bottom: 20px;
+
+					}.submoremain3 .subsub{
+						display: flex;
+						flex-direction: row;
+						justify-content: space-around;
+						text-decoration-line: none;
+						color: white;
+						padding-top: 10px;
+
+					}.submoremain3 .subsub a{
+						text-decoration-line: none;
+						font-size: 20px;
+						color: white;
+					}
+					.submoremain3 .subsub a:hover{
+						text-shadow: 2px 5px 5px blue;
+						text-decoration-line: none;
+						color: white;
+						font-size: 20px;
+					}
+
+
+}
+/*/////////////////////////////800px///////////////////////////////////////////*/
+
+@media(min-width: 650px) and (max-width: 800px){
+
+
+.homediv{
+					color: white;
+					position: absolute;
+					font-size: 25px;
+					padding-left: 150px;
+					padding-top: 10px;
+					padding-right: 100px;
+					margin-right: 100px;
+					justify-content: center;
+
+				}.homediv .fa-home{
+					color: white;
+					text-shadow: 2px 2px 2px black;
+				}.homediv .fa-home:hover{
+					color: white;
+					text-shadow: 2px 4px 4px gray;
+				}
+				.fa-window-close{
+					padding-top: 0px;
+					margin-top: 0px;
+
+					color: white;
+					/*padding:10px;*/
+				}.fa-window-close:hover{
+					color: white;
+					text-shadow: 2px 2px 2px black;/*
+					padding:10px;*/
+				}
+
+				.moresubwindow{
+					display: none;
+					width: auto;
+					height: auto;
+					background: gray;
+					position: absolute;
+					padding-bottom: 20px;
+					margin-top: 45px;
+					padding-top: 0px;
+					justify-content: center;
+				}
+				.close{
+					display: flex;
+					flex-direction: row-reverse;
+					top: 0%;
+				}
+				.mainmore1{
+					position: relative;
+					padding-top: 0px;
+					margin-top: 0px;
+					padding-left: 0px;
+					margin-left: 0px;
+
+				}.mainmore2{
+					padding-top: 10px;
+					display: grid;
+					grid-template-columns:  minmax(150px, 280px) minmax(150px, 280px) minmax(150px, 280px);
+					grid-template-rows: auto;
+
+				}.submoremain h2{
+					text-align: center;
+					text-shadow: 2px 2px 2px blue;
+					color: white;
+
+					}.submoremain{
+
+						padding-top: 20px;
+						padding-bottom: 20px;
+					}.submoremain3 .subsub{
+						display: flex;
+						flex-direction: row;
+						justify-content: space-around;
+						text-decoration-line: none;
+						color: white;
+						padding-top: 10px;
+
+					}.submoremain3 .subsub a{
+						text-decoration-line: none;
+						color: white;
+						font-size: 20px;
+					}
+					.submoremain3 .subsub a:hover{
+						text-shadow: 2px 5px 5px blue;
+						text-decoration-line: none;
+						color: white;
+						font-size: 20px;
+					}
+
+
+}
+/*/////////////////////////////////(min-width: 520px) and (max-width: 650px)///////////////////////////////////////////////////////*/
+
+
+
+
+@media(min-width: 520px) and (max-width: 650px){
+
+
+.homediv{
+					color: white;
+					position: absolute;
+					font-size: 25px;
+					padding-left: 150px;
+					padding-top: 10px;
+					padding-right: 100px;
+					margin-right: 100px;
+					justify-content: center;
+
+				}.homediv .fa-home{
+					color: white;
+					text-shadow: 2px 2px 2px black;
+				}.homediv .fa-home:hover{
+					color: white;
+					text-shadow: 2px 4px 4px gray;
+				}
+				.fa-window-close{
+					padding-top: 0px;
+					margin-top: 0px;
+
+					color: white;
+					/*padding:10px;*/
+				}.fa-window-close:hover{
+					color: white;
+					text-shadow: 2px 2px 2px black;/*
+					padding:10px;*/
+				}
+
+				.moresubwindow{
+					display: none;
+					width: 98%;
+					height: auto;
+					background: gray;
+					position: absolute;
+					padding-bottom: 20px;
+					margin-top: 45px;
+					padding-top: 0px;
+					justify-content: center;
+					overflow: auto;
+
+				}
+				.close{
+					display: flex;
+					flex-direction: row-reverse;
+					top: 0%;
+				}
+				.mainmore1{
+					position: relative;
+					padding-top: 0px;
+					margin-top: 0px;
+					padding-left: 0px;
+					margin-left: 0px;
+
+				}.mainmore2{
+					padding-top: 10px;
+					display: grid;
+					grid-template-columns:  minmax(150px, 280px);
+					grid-template-rows: auto;
+					justify-content: center;
+
+				}.submoremain h2{
+					text-align: center;
+					text-shadow: 2px 2px 2px blue;
+					color: white;
+
+					}.submoremain{
+
+
+						padding-top: 20px;
+						padding-bottom: 20px;
+
+					}.submoremain3 .subsub{
+						display: flex;
+						flex-direction: row;
+						justify-content: space-around;
+						text-decoration-line: none;
+						color: white;
+						padding-top: 10px;
+
+					}.submoremain3 .subsub a{
+						text-decoration-line: none;
+						color: white;
+						font-size: 19px;
+					}
+					.submoremain3 .subsub a:hover{
+						text-shadow: 2px 5px 5px blue;
+						text-decoration-line: none;
+						color: white;
+						font-size: 19px;
+					}
+
+
+}
+/*///////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+@media(min-width: 120px) and (max-width: 520px){
+
+.homediv{
+					color: white;
+					position: absolute;
+					font-size: 25px;
+					padding-left: 150px;
+					padding-top: 10px;
+					padding-right: 100px;
+					margin-right: 100px;
+					justify-content: center;
+
+				}.homediv .fa-home{
+					color: white;
+					text-shadow: 2px 2px 2px black;
+				}.homediv .fa-home:hover{
+					color: white;
+					text-shadow: 2px 4px 4px gray;
+				}
+				.fa-window-close{
+					padding-top: 0px;
+					margin-top: 0px;
+
+					color: white;
+					/*padding:10px;*/
+				}.fa-window-close:hover{
+					color: white;
+					text-shadow: 2px 2px 2px black;/*
+					padding:10px;*/
+				}
+
+				.moresubwindow{
+					display: none;
+					width: 98%;
+					height: auto;
+					background: gray;
+					position: absolute;
+					padding-bottom: 20px;
+					margin-top: 45px;
+					padding-top: 0px;
+					justify-content: center;
+					overflow: auto;
+
+				}
+				.close{
+					display: flex;
+					flex-direction: row-reverse;
+					top: 0%;
+				}
+				.mainmore1{
+					position: relative;
+					padding-top: 0px;
+					margin-top: 0px;
+					padding-left: 0px;
+					margin-left: 0px;
+
+				}.mainmore2{
+					padding-top: 10px;
+					display: grid;
+					grid-template-columns:  minmax(150px, 280px);
+					grid-template-rows: auto;
+					justify-content: center;
+
+				}.submoremain h2{
+					text-align: center;
+					text-shadow: 2px 2px 2px blue;
+					color: white;
+
+					}.submoremain{
+
+
+						padding-top: 20px;
+						padding-bottom: 20px;
+
+					}.submoremain3 .subsub{
+						display: flex;
+						flex-direction: row;
+						justify-content: space-around;
+						text-decoration-line: none;
+						color: white;
+						padding-top: 10px;
+
+					}.submoremain3 .subsub a{
+						text-decoration-line: none;
+						color: white;
+						font-size: 19px;
+					}
+					.submoremain3 .subsub a:hover{
+						text-shadow: 2px 5px 5px blue;
+						text-decoration-line: none;
+						color: white;
+						font-size: 19px;
+					}
+
+}

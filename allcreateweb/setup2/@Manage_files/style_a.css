@@ -1,0 +1,232 @@
+@media(min-width: 1091px) and (max-width: 2000px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	header{
+		width: 100%;
+		height: 60px;
+	}
+	header .text1{
+		font-family: sans-serif, "helvetica Neue", "Lucida Grande", Arial;
+		font-stretch: extra-expanded;
+		word-spacing: 30px;
+		word-wrap: break-word;
+		text-indent: 50px;
+		font-size: 35px;
+		background: white;
+		color: white;
+		text-shadow:0 0 5px #0c0002, 0 0 9px #310505;
+		position: absolute;
+		padding-top: 6px;
+	}
+
+	nav .btn .fa-bars{
+		visibility: hidden;
+		padding-left: 30px;
+		padding-top: 66px;
+		top:0px;
+		position: absolute;
+		color: white;
+	}
+
+	
+	nav .btn .menu{
+		visibility: hidden;
+		padding-left: 400px;
+		padding-top: 66px;
+		top:0px;
+		font-size: 25px;
+		position: absolute;
+	}
+
+	nav .btn .menu a{
+		color: white;
+		text-decoration-line: none;
+	}
+	nav{
+		width: auto;
+		height: 45px;
+		background: #545454;
+		border: 1px solid black;
+		top: 0;
+		position: sticky;
+		z-index: 1;
+	}
+	nav ul{
+		text-align: center;
+	}
+	nav ul li{
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 5px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		padding-top: 5px;
+		border: 3px solid #545454;
+	}
+	nav ul li a{
+		font-family: monospace;
+		color: white;
+		text-decoration: none;
+		font-size: 23px;
+		text-shadow:0 0 3px #0c0002, 0 0 6px #310505;
+	}
+	nav ul li .active{
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 9px;
+		border-radius: 30px;
+		border-color: black;
+		background: white;
+	}
+	.maincss{
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 212px auto ;
+	}
+	.maindiv1{
+		height: auto;
+		width: 212px;
+		display: show;
+		position: sticky;
+		top: 47px;
+		height: 640px;
+		box-shadow: 2px 9px 9px  #e256fd;
+		background: #00000030;
+	}
+	.container3{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: #efefef;
+	}.container3 h2{
+		color: white;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		text-shadow: 2px 2px 2px green;
+		
+	}
+	.maindivbtn1{
+
+		background-color: #efefef;
+		padding-top: 20px;
+		padding-bottom: 35px;
+		text-align: center;
+		justify-content: center;
+		visibility: show;
+	}
+
+	.maindivbtn1 button{
+		font-family: cursive; 
+		color: white;
+		word-spacing: normal;
+		font-size: 18px;
+		text-shadow:0 0 1px #1d4dff, 0 0 3px #3c20d6;
+		text-align: center;
+		border: none;
+		width: 200px;
+		height: 30px;
+		background-color: none;
+	}
+		
+	.maindiv2{
+	}
+	.maindiv2 .submaindiv{
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: minmax(320px, 2000px) 150px;
+	}
+	.submaindiv1{
+		background-color: white;
+		height: auto;
+		width: auto;
+	}
+	.submaindiv2{
+		height: auto;
+		width: 150px;
+		background-color: white;
+	}
+	.submaindiv3{
+
+	}
+
+		.search-box{
+			position: absolute;
+			top: 50%;
+			left: 10%;
+			transform: translate(-50%, -50%);
+			background: #2f3640;
+			height: 27px;
+			border-radius: 40px;
+			padding: 10px;
+		}
+		.search-box:hover > .search-txt{
+			width: 140px;
+			padding: 0 6px;
+		}
+		.search-btn:hover > .search-txt{
+			background: white;
+		}
+		.search-btn{
+			color: #e84118;
+			float: right;
+			width: 40px;
+			height: 27px;
+			border-radius: 50%;
+			background: #2f3640;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.search-txt{
+			border: none;
+			background: none;
+			outline: none;
+			float: left;
+			padding: 0;
+			color: white;
+			font-size: 16px;
+			transition: 0.4s;
+			line-height: 27px;
+			width: 0px;
+		}
+	.container1{
+		padding: 10px;
+	}
+	.footerClass{
+		background-image: linear-gradient(to left,#F650FE, #607BF5);
+		padding-bottom: 25px;
+	}.footerClass h1{
+		padding: 25px;
+		font-family: sans-serif;
+		text-shadow: 2px 2px 2px blue;
+		color: white;
+	}
+	.flex_css{
+		width: 100%; height: auto;
+		background-image: linear-gradient(to left,#F650FE, #607BF5);
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-auto-rows: auto;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+		justify-content: space-around;
+
+	}.flex_css h2{
+		text-shadow: 2px 2px 2px green;
+		color: white;
+	}.flex_css a{
+		color: white;
+		text-decoration-line: none;
+		font-family: cursive;
+	}.flex_css a:hover{
+		color: gray;
+		text-decoration-line: none;
+		font-family: cursive;
+	}
+
+
+}
+

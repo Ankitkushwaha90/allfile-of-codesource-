@@ -1,0 +1,645 @@
+<!DOTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+<script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+    
+    <nav class="navcss">
+        <div class="container">
+            <div class="logo">
+                <div class="circlelogo">
+                    <img src="img/logo.png" width="100px" height="50px">
+                </div>                   
+                <div class="logoh">
+                    <h2>
+                        <span class="redc">L</span>
+                        o
+                        <span class="redc">G</span>
+                        o
+                    </h2>
+                </div>                 
+            </div>
+            <div class="singup">
+                <button onclick="myFunctiona()">Singup</button>
+            </div>
+            <div class="ul">                
+
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Template</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Home</a></li>                         
+            </div> 
+        </div>
+    </nav>
+
+    <!-- form/----------------------------------------------------------------------- -->
+
+    <div class="formdiv">
+       
+        <div class="container3">
+            
+            <div class="card">
+                <i class="closef fas fa-times " style="font-size: 20px;"  onclick="myFunction()"></i>
+                <div class="inner-box" id="card">
+                    
+                    <div class="card-front">
+                        
+                        <h2>LOGIN</h2>
+                        
+                        <form>
+                            <input type="email" class="input-box" placeholder="Your Email Id" required>
+                            <input type="password" class="input-box" placeholder="Password" required>
+                            <button type="submit" class="submit-btn">Submit</button>
+                            <input type="checkbox"><span class="spanc">Remember Me</span>
+                        </form>
+                        <button type="button" class="btna" onclick="openRegister()">I'm New Here</button>
+                        <a href="">Forget Password</a>
+                    </div>
+                    <div class="card-back">
+                        <h2>REGISTER</h2>
+                        <from>
+                            <input type="text" class="input-box" placeholder="Your Name" required>
+                            <input type="email" class="input-box" placeholder="Your Email Id" required>
+                            <input type="password" class="input-box" placeholder="Password" required>
+                           <button type="submit" class="submit-btn">Submit</button>
+                           <input type="checkbox"><span class="spanc">Remember Me</span>
+                        </from>
+                        <button type="button" class="btna" onclick="openLogin()">I've an account</button>
+                        <a href="">Forgot Password</a>
+    
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+    <!-- form /////////////////////////////////end------------------------------------------ -->
+
+    <div class="setup">
+                <div class="abs">
+                    
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                            <img src="img/pexels-jacoby-clarke-5400775.jpg" alt="Los Angeles" style="width: 100vw; height: 60vh;">
+                            </div>
+                    
+                            <div class="item">
+                            <img src="img/pexels-sora-shimazaki-5926398.jpg" alt="Chicago" style="width:100vw; height: 60vh;">
+                            </div>
+                        
+                            <div class="item">
+                            <img src="img/pexels-kyle-loftus-3379943.jpg" alt="New york" style="width:100vw; height: 60vh;">
+                            </div>
+                        </div>
+                    
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="set">
+                    <div class="setblock">                            
+                        <h1> Web development courses</h1>
+                        <h2>Online programming courses</h2>
+                    </div>
+                    <div class="setbtn">
+                        <button>JoinNow</button>
+                    </div>
+
+                    
+                </div>
+                          
+                
+    </div>
+
+    <center class="" >
+        <h1>Welcome to here</h1>
+    </center>
+
+
+<!-- ////////////////////////////////////////////////////////////////////start About me///////////////////// -->
+    <div class="about_me" > 
+
+        <div class="abtinner">
+            <div class="abt1">
+                <h2><span style="  color:red;">A</span><span style="color: white;">bout</span> <span style="color:red;">M</span><span style="color: white;">e</span></h2>
+                <div>
+                    <p style="color: white; font-family: 'Dancing Script', cursive;">
+                        In this site web designing and web development skills, learn more Web development skills and programming Learn more than And latest example for web development. other programming introduction.
+                        
+
+                    </p>
+                </div>
+            </div>
+    
+            <div class="abt2">
+                <hr size="100px">
+                <p style="color:aliceblue; font-family: 'Cookie', cursive;">
+                    <p style="color:aliceblue; font-family: 'Cookie', cursive;">Hello! Welcome digital marketing programming skill increasing now,
+                        <br> With latest example. </p>
+                    <p style="color:aliceblue; font-family: 'Cookie', cursive;">HTML5 CSS3 JAVASCRIPT PHP PYTHON SQL C# C++ etc.</p>
+                </p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="success">
+        <div class="successt">
+            <div>
+                <center><h4>Success We Deserve</h4></center>
+                <hr>
+                 
+                <center><h2>~WE HAVE SOMETHING TO BE PROUD OF!~</h2></center>
+                <div class="contsu  ">
+                    <div class="comp ttt">
+                        <div><i class="fa-5x fas fa-mug-hot"></i></div> 
+                        <div><h1>1000+</h1></div>
+                        <h3>Complete Projects</h3>
+                        <p>This quantity of projects shows our domain authority and trust of our valuable customers</p>
+                    </div>
+
+                    <div class="Happ ttt">
+                        <div><i class="fa-5x fad fa-map-signs"></i></div>
+                        <div><h1>500+</h1></div>
+                        <h3>Happy Clients</h3>
+                        <p>We consestently reserve repetetive business from our clients which shows their satisfaction </p>
+                    </div>
+
+                    <div class="Annu ttt">
+                        <div><i class="fa-5x fas fa-money-check-alt"></i></div> 
+                        <div><h1>22%</h1></div>
+                        <h3>Annual Growth</h3>
+                        <p>Our hand work and dedication helps us grow rapidy and consistently</p>
+                    </div> 
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="websiteee Design">
+        <div class="websitein">
+
+            <div class="webindeg">
+                <p>Website Design</p>
+                <hr>
+            </div>
+            <h2> DESIGN THAT'S CHANGED EVERYTHING!</h2>
+            <div class="templateg">
+                <div class="user ctctt">
+                    <div><i class="fa-5x fas fa-money-check-alt"></i></div>
+                    <center><h3>User Interface & User Experience</h3></center>
+                    <center><p>Every aspect of client traffic and usage is important We create clear Pathways to your site and simple traffic patterns within it.</p></center>
+                </div>
+                <div class="Respon ctctt">
+                    <div><i class="fa-5x fas fa-money-check-alt"></i></div>
+                    <center><h3>Responsive Design</h3></center>
+                    <center><p>We designs let your business shine on every screen No matter what device is used, your site will run smoothly and appear correctly.</p></center>
+
+
+                </div>
+                <div class="quick ctctt">
+                    <div><i class="fa-5x fas fa-money-check-alt"></i></div>
+                    <center><h3>Quick Page Load Time</h3></center>
+                        <center><p>Visitors and search engines love website because we focus on designs that are quick and easy to load.</p></center>
+                </div>
+                <div class="b2b ctctt">
+                    <div><i class="fa-5x fas fa-money-check-alt"></i></div>
+                    <center><h3>B2B Specific Elements</h3></center>
+                        <center> <p>B2B website are uniques specialized knowledge. we have a precord for making websites valuable resources load generators.</p></center>
+                </div>
+                <div class="Websitef ctctt">
+                    <div><i class="fa-5x fas fa-money-check-alt"></i></div>
+                    <center><h3>Website Flow</h3></center>
+                        <center><p>Websites are designed to enhance your customer's experience by using clear, intutive purchasing processes.</p></center>
+                </div>
+                <div class="easy ctctt">
+                    <div><i class="fa-5x fab fa-algolia"></i></div>
+                    <center><h3>Easy Navigation</h3></center>
+                        <center><p>Ease of use helps any website increase sales Designs focus on creating easy navigation and flow between different products and categories.</p></center>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="contact">
+        <div class="contactinner">
+            <div class="cont">
+                <div>   
+                    <center>
+                    <div class="ctn">
+                         <h2 class="btnc"><span style="color: red;">C</span><span style="color: white">ontact</span> <span style="color: red">M</span><span style="color: white">e</span></h2> 
+                    </div>       
+                </center>          
+                <center><div style="display: none; background-color: black; width: 80vw; height: 5px;"></div></center>
+                
+
+
+                   
+                </div>
+  
+                    
+ 
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="mess" >
+
+        <div class="messout" style="display:none;">
+            <div class="messin">
+                <div class="messi">
+                    <div class="messcir"><i class="fas fa-user fa-5x"></i></div>
+                    <h2>User name</h2>
+                </div>
+                <div class="messe">
+                    <h2>Title for topic</h2><br>
+                    <p class="desc">
+                        Hello! very nice beautiful designing. So i am happy.
+                    </p>
+
+                </div>
+
+            </div>
+
+            
+   
+        </div>
+
+        <div class="sibtnout">
+            <div class="sibtnin">
+                <!-- <div class="lines"></div> -->
+               
+                <button class="singio" onclick="myFunctionab()">Singup</button>
+                <center style="display:none;"><div style="background-color: black; width: 80vw; height: 5px;"></div></center>
+                <!-- <div class="lines"></div> -->
+             
+            </div>
+
+        </div>
+       
+
+        <div class="messout sinup">
+            <div class="messin">
+                <div class="messi">
+                    <div class="messcir"><i class="fas fa-user fa-5x"></i></div>
+                    <h2><input  placeholder="User name"></h2>
+                    <h2><input placeholder="Your work"></h2>
+                    <h2><input placeholder="Your programming skills"></h2>
+                </div>
+                <div class="messe">
+                    <h2><input  placeholder="Email_id"></h2><br>
+                    <h2><input  placeholder="Password"></h2><br>
+                    <h2><input  placeholder="Retype password"></h2><br> 
+                    <h2><input  placeholder="Title for topic"></h2><br>
+                    <p class="desc">
+                        <input placeholder="Write the description "> 
+                    </p>
+                     
+
+                    <button>Registeration</button>
+
+                </div>
+
+            </div>
+
+            
+   
+        </div>
+       
+
+    </div>
+
+
+    <div class="ourr">
+        <div class="ourin">
+            <center>
+                <h3>Our Benefits</h3>
+                
+            </center>
+            <div>
+                <center>
+                    <h2>LOVES TO TAKE ON NEW CHALLENGES</h2>
+                </center>
+            </div>
+            <center>
+
+                <div class="hellour">
+                    
+
+                    <div class="ttdt"><i class="fa-3x fal fa-book-spells"></i></div>
+                    <div class="ttdt"><i class="fa-3x fal fa-users"></i></div>
+                    <div class="ttdt"><i class="fa-3x fas fa-file-code"></i></div>
+                    <div class="ttdt"><i class="fa-3x fab fa-500px"></i></div>
+                    <div class="ttdt"><i class="fa-3x fab fa-accusoft"></i></div>
+                    <div class="ttdt"><i class="fa-3x fab fa-adversal"></i></div>
+                </div>
+
+            </center>
+            
+            <center><h2>
+                Friendly support focused on answering
+                every question quickly
+            </h2></center>
+            
+        </div>
+
+    </div>
+
+    <div class="outus">
+        <div class="inus">
+            <center><h4>Be with us</h4></center>
+            <hr>
+            <center><h2>CONNECT WITH US</h2></center>
+            <center><p>Let our large. highly trained staff dedicate themselves to enhacing your company's B2B services</p></center>
+            <center><input placeholder="Enter your email address"><i class="fa-3x fas fa-mail-bulk" style="position: relative; left:50px"></i></center>
+
+        </div>
+    </div>
+
+    <div class="outpro">
+        <div class="inpro">
+            <center><h4>Testimonials</h4></center>
+            <center><div class="linesa"></div></center>
+            
+            <center><h2>WHAT OUR CLIENT SAY'S</h2></center>
+            <div class="mainpro">
+                <div class="work ptpt">
+                    <div class="greendiv">
+                        <div class="greenline linesaa">
+                            <center><p class="ppd">"Working with Sandy, I feel like there are never any dumb question. they just have great ideas and are always on top of what is trending..."</p></center>
+                        </div>
+                    
+                </div>
+                <center>
+                    <div>
+                        <img src="img/pexels-tima-miroshnichenko-5380606.jpg" width="100px" height="100px" style="clip-path: circle();" >
+                        <h3>Let</h3>
+                        <p>New create</p>
+                    </div>
+                </center>
+                </div>
+                <div class="with ptpt">
+                    <div class="bluediv">
+                        <div class="blueline linesab">
+                            <center><p  class="ppd">"With our old designer, it was just past.'Sandy is on top of it. They're very responsive. If we had a question, we'd hear from them within 24-hours..."</p></center>
+                        </div>
+                    </div>
+                    <center>
+                        <div>
+                            <img src="img/pexels-sy-donny-1841841.jpg" width="100px" height="100px" style="clip-path: circle();" >
+                            <h3>Start</h3>
+                            <p>Create design and developed</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="we ptpt">
+                    <div class="reddiv">
+                        <div class="redline linesac">
+                            <center><p  class="ppd">"We appreciate that Our site is now more exciting. it's fresh and more appealing"</p></center>
+                        </div>
+                    
+                </div>
+                <center>
+                    <div>
+                        <img src="img/pexels-hasan-albari-1229862.jpg" width="100px" height="100px" style="clip-path: circle();" >
+                        <h3>go!</h3>
+                        <p>Welcome to site.</p>
+                    </div>
+                </center>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="nextdiv">
+        <div class="nextdivin">
+            <div class="contentnextdiv">
+                <img src="img/pexels-mica-asato-1198171.jpg" width="100%" height="100%" >
+                <center>
+                    <h2>Hello!</h2>
+                </center>
+            </div>
+
+            <div class="contentnextdiv">
+                <img src="img/pexels-mica-asato-1198171.jpg" width="100%" height="100%" >
+                <center>
+                    <h2>Hello!</h2>
+                </center>
+            </div>
+
+            <div class="contentnextdiv">
+                <img src="img/pexels-mica-asato-1198171.jpg" width="100%" height="100%" >
+                <center>
+                    <h2>Hello!</h2>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footerdivo">
+        <div class="footerdivi">
+            <div class="setup">
+
+                <div class="abut">
+                    <div class="abutin">
+                        <h3>ABOUT'S AGENCY</h3>
+                        <div class="lineabc"></div>
+                        <p>
+                            We understand the challenges facing B2B companies We craft fully custorrized and unique products to meet each of our customer's individual needs we focus on helping our clients meet their goals and grow their business
+                        </p>
+                        <div class="peblishes">
+                            <div class="facebook"><i class="fa-2x fab fa-facebook-square"></i></div>
+                            <div class="twitter"><i class="fa-2x fab fa-twitter-square"></i></div>
+                            <div class="google++"><i class="fa-2x fab fa-google-plus-g"></i></div>
+                            <div class="in"><i class="fa-2x fab fa-invision"></i></div>
+                            <div class="instagram"><i class="fab fa-instagram-square"></i></div>
+                        </div>
+                        <div>
+                            <p>@2021 agency. | All rights reserve</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rece">
+                    <div class="recein">
+                        <h3>RECENT POSTS</h3>
+                        <div class="lineabc"></div>
+                        <div>
+                            <div class="imgsec">
+                                <img src="img/pexels-oleg-magni-2866911.jpg" width="100%" height="100%" size="100px">
+                                <div class="">
+                                    <h5>The Benefits of Website<br> Multimedia Integration</h5>
+                                    <p>February11,2022</p>
+                                </div>
+                            </div>
+
+                            <div class="imgsec">
+                                <img src="img/pexels-oleg-magni-2866911.jpg" width="100%" height="100%" size="100px">
+                                <div class="">
+                                    <h5>Seamless E-Commerce<br> Solutions</h5>
+                                    <p>February11,2022</p>
+                                </div>
+                            </div>
+
+                            <div class="imgsec">
+                                <img src="img/pexels-oleg-magni-2866911.jpg" width="100%" height="100%" size="100px">
+                                <div class="">
+                                    <h5>Best Practices in<br> Website Design Make a Plan</h5>
+                                    <p>February11,2022</p>
+                                </div>
+                            </div>
+                             
+                        </div>
+                    </div>
+                </div>
+                <div class="contusdd">
+                    <div class="contusddin">
+                        <h3>CONTACT US</h3>
+                        <div class="lineabc"></div>
+                        <div class="contabccc">
+                            <div>
+                                <div></div>
+                                <div>
+                                    <div><h5>Contact Me</h5></div>
+                                    <div><h5>signup</h5></div> 
+                                </div>
+                            </div>
+
+                            <div>
+                                <img>
+                                <div>
+                                    <div><h4>Email Address</h4></div>
+                                    <div>helloWelcome@gmail.com</div> 
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class=""></div>
+                                <div>
+                                    <div><h4>Address</h4></div>
+                                    <div><p>Hello! Welcome to my profile and<br> my work is design and development.</p></div> 
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="exdou">
+        <div class="exdin">
+            <p>Website Design  |  Internet Marketing  | Population Management  |  Search Engine Marketing  |  Search Engine Optimization</p>
+        </div>
+    </div>
+
+
+
+
+    <style>
+        .mystyle{
+            display: none;
+        }
+    </style>
+    <script>
+        var card = document.getElementById("card");
+        const formdiv = document.querySelector(".formdiv");
+
+        function openRegister(){
+            card.style.transform = "rotateY(-180deg)";
+        }
+
+        function openLogin(){
+            card.style.transform = "rotateY(0deg)";
+        }
+
+        function myFunction() {
+              formdiv.style.display="none";
+        }
+        var x = document.querySelector(".formdiv");
+        function myFunctiona() {
+           
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+          function myFunctiona() {
+           
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+
+            const sinup = document.querySelector(".sinup");
+
+            // 
+            function myFunctionab() {
+
+                sinup.classList.toggle("mystyle");
+           
+           
+            }
+            //
+         
+           
+    </script>
+       <script>
+        $( ".singio").click(function() {
+          $( ".mystyle" ).slideToggle( "slow" );
+        });
+        </script>
+    
+    
+    
+</body>
+</html>
